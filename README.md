@@ -5,16 +5,15 @@ Egemen Pamukcu, Jade Benson, Max Kramer, Sabina Hartnett
 
 Libraries & Packages needed: 
 
-Geopy (geopy.distance)
-numpy 
-pandas 
-csv
-copy
-geopandas 
-matplotlib.pyplot 
-mapclassify 
-seaborn 
-wordcloud
+csv (0.0.13)
+geopandas (0.9.0) - might require geos (0.2.3)
+geopy (geopy.distance) (2.1.0)
+mapclassify (2.4.2)
+matplotlib.pyplot (3.3.4)
+numpy (1.20.1)
+pandas (1.2.2)
+seaborn (0.11.1)
+wordcloud (1.8.1)
 
 *Initial Yelp Queries: yapi-collect-searchquery.ipynb*
 
@@ -22,7 +21,7 @@ wordcloud
   Each teammate then ran "get_yelp_query" and "businesses_query" functions on their list of coordinates in stages (to work around API search limit)
   Each teammate combined and then uploaded all their returned buisnesses to the CSVs folder 
 
-*Record Linkage and Data Merging: 
+*Record Linkage and Data Merging:* 
   **food_inspection_and_linkage.py**
   Subsets the City of Chicago food inspection datasets to identify restaurants before and after COVID
   Queries the Yelp API for the closed and missing businesses
