@@ -14,6 +14,7 @@ numpy (1.20.1)
 pandas (1.2.2)
 seaborn (0.11.1)
 wordcloud (1.8.1)
+tqdm (1.0.0)
 
 *Initial Yelp Queries: yapi-collect-searchquery.ipynb*
 
