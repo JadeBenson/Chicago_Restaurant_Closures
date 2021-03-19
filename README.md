@@ -22,6 +22,7 @@ wordcloud (1.8.1)
   Each teammate combined and then uploaded all their returned buisnesses to the CSVs folder 
 
 *Record Linkage and Data Merging:* 
+
   **food_inspection_and_linkage.py**
   Subsets the City of Chicago food inspection datasets to identify restaurants before and after COVID
   Queries the Yelp API for the closed and missing businesses
